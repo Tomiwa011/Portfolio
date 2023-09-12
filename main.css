@@ -969,7 +969,7 @@ footer {
 	width: 100%;
 	height: 60px;
 	background: white;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
@@ -1803,18 +1803,18 @@ footer {
   }
   
   .navigation ul li:nth-child(2).active ~ .indicator {
-    transform: translatex(calc(65px * 1));
+    transform: translatex(calc(74px * 1));
   }
   
   .navigation ul li:nth-child(3).active ~ .indicator {
-    transform: translatex(calc(68.4px * 2));
+    transform: translatex(calc(74px * 2));
   }
   
   .navigation ul li:nth-child(4).active ~ .indicator {
-    transform: translatex(calc(68.5px * 3));
+    transform: translatex(calc(74px * 3));
   }
   
   .navigation ul li:nth-child(5).active ~ .indicator {
-    transform: translatex(calc(68.4px * 4));
+    transform: translatex(calc(74px * 4));
 }
 }}
