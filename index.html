@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=neco@400&f[]=pally@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid con1 body" id="body">
+      <div class="contain">
+        <div class="land" id="">
+          <nav class="">
+            <div class="mnav mx-auto">
+              <a class="mlogo mx-auto" href="index.html"
+                ><img class="mx-auto" src="./img/Logo.svg" alt=""
+              /></a>
+            </div>
+            <div class="nav-bar">
+              <ul class="main-nav">
+                <li class="logo">
+                  <a href="index.html"><img src="./img/Logo.svg" alt="" /></a>
+                </li>
+                <li><a class="link" href="#">About</a></li>
+                <li><a class="link" href="#">Work</a></li>
+                <li><a class="link" href="#">Notebook</a></li>
+                <li><a class="link" href="#">Contact</a></li>
+                <!-- <li><a class="link" href="#">More</a></li> -->
+                <div class="dropdown">
+                  <a
+                    class="link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    More
+                  </a>
+
+                  <div class="dropdown-menu bg-dark text-white">
+                    <a class="dropdown-item" href="#">Tech stack</a>
+                    <a class="dropdown-item" href="#">Bookshelf</a>
+                    <a class="dropdown-item" href="#">This UI Kit</a>
+                  </div>
+                </div>
+              </ul>
+
+              <div>
+                <ul class="r-nav">
+                  <li>
+                    <a class="link text-white" href="#"
+                      ><img src="./img/Group_1.svg" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a class="link text-white" href="#"
+                      ><img src="./img/Frame.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="link text-white"
+                      href="https://github.com/Tomiwa011"
+                      target="_blank"
+                      ><img src="./img/github-mark 1.svg" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      class="link text-white"
+                      href="#"
+                      id="toggle-theme"
+                      onclick="myFunction()"
+                      ><img src="./img/Group.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="intro">
+            <p class="m-hi ">Hi 👋</p>
+            <h1>
+              <a
+                href=""
+                class="typewrite "
+                data-period="2000"
+                data-type='[ "Hi 👋, I`m David.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+              >
+                <span class="wrap"></span>
+              </a>
+            </h1>
+
+            <p class="text1">
+              A front-end engineer and UI/UX designer helping startups turn
+              their visions into a digital reality. I specialize in designing
+              and building modern mobile and web-based apps.
+            </p>
+            <div class="resume d-flex">
+             <a href="#" class="text-white link"> <button class="btn btn1 text-white mr-2" >See my resume</button></a>
+             <a href="#git"><button class="btn btn1 text-white">Get in touch</button></a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="works">
+          <h2 class="my-3" id="name1">Selected Works</h2>
+          <div
+            class="app1 text-white"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="2000"
+            id="app1"
+          >
+            <div class="app-container">
+              <div class="icon">
+                <img src="./img/Logo_1.svg" width="100%" alt="" />
+              </div>
+              <div class="app-text">
+                Subbi –– The free subscriptions manager
+              </div>
+              <div class="app-essay">
+                Subbi is a side project that I’ve built to help me keep track of
+                how much I spend on subscriptions and also to prevent the
+                “accidental” bill after a 14-day trail ends. It helps you keep
+                track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card,
+                Bank Cards, and many more.
+              </div>
+              <button class="btn text-white btn-app">
+                Download App <img src="./img/Arrow Right.svg" alt="" />
+              </button>
+            </div>
+            <div class="app-img">
+              <img src="./img/Subbi.png" width="100%" alt="" />
+            </div>
+          </div>
+          <div
+            class="app1 my-3"
+            id="app2"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="2000"
+          >
+            <div class="app-container">
+              <div class="icon">
+                <img src="./img/React-icon 1.svg" alt="" />
+              </div>
+              <div class="app-text">React Documentation</div>
+              <div class="app-essay">
+                With the release of the new React website on March 16, there was
+                a need for localization to make the documentation accessible to
+                Arabic-speaking developers. I contributed to translating several
+                documentation, worked with great developers, Improved my ability
+                to write better PR requests.
+              </div>
+              <button class="btn text-white btn-app">
+                Visit Site <img  src="./img/Arrow Right.svg" alt="" />
+              </button>
+            </div>
+            <div class="app-img">
+              <img src="./img/React Docs.png" width="100%" alt="" />
+            </div>
+          </div>
+          <div
+            class="app1 text-white"
+            id="app3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="2000"
+          >
+            <div class="app-container">
+              <div class="icon"><img src="./img/371510 1.svg" alt="" /></div>
+              <div class="app-text">Storybook Documentation</div>
+              <div class="app-essay">
+                This was my very first OSS contribution, I contributed to
+                translating the documentation of Storybook into Arabic, enabling
+                a wider audience to access and understand the resources
+                available. I gained valuable experience in working effectively
+                with teams and navigating the pull request process.
+              </div>
+              <button class="btn text-white btn-app">
+                Visit Site <img src="./img/Arrow Right.svg" alt="" />
+              </button>
+            </div>
+            <div class="app-img">
+              <img src="./img/Storybook Docs.png" width="100%" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="gtkm">
+          <h2 class="h2 text-white" id="name2">Get To Know Me</h2>
+          <div class="card-contain d-flex">
+            <div class="card1 ">
+              <div class="card-head">About Me</div>
+              <div class="card-body">Who I am and what i do</div>
+              <div class="card-pic">
+                <img src="./img/My project 2.png" width="100%" />
+              </div>
+            </div>
+            <div class="card1">
+              <div class="card-head">Notebook</div>
+              <div class="card-body">
+                My thoughts, insights, and reflections
+              </div>
+              <div class="card-pic">
+                <img src="./img/My project 2.png" width="100%" />
+              </div>
+            </div>
+            <div class="card1 ">
+              <div class="card-head">Bookshelf</div>
+              <div class="card-body">
+                Books and pieces of wisdom I’ve enjoyed reading
+              </div>
+              <div class="card-pic">
+                <img src="./img/My project 2.png" width="100%" />
+              </div>
+            </div>
+            <div class="card1">
+              <div class="card-head">Tech Stack</div>
+              <div class="card-body">
+                The dev tools, apps, devices, and games I use and play.
+              </div>
+              <div class="card-pic">
+                <img src="./img/My project 2.png" width="100%" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="git animate__animated animate__fadeInLeft animate_50ms"
+          id="git"
+        >
+          <div class="text">
+            <div class="git-header" id="name3">Lets work together</div>
+            <div class="git-text">
+              Want to discuss an opportunity to create something great? I’m
+              ready when you are.
+            </div>
+          </div>
+          <button class="btn git-btn text-white" id="gitBtn">
+            <img src="./img/Send.svg" alt="" />Get in touch
+          </button>
+        </div>
+        <div
+          class="git-page animate__animated animate__fadeInRight animate_50ms"
+          id="cont-git"
+        >
+          <div class="cont-git">
+            <div class="git-head text-white">
+              <h2>Get in touch</h2>
+              <p>Let’s build something awesome.</p>
+            </div>
+            <form class="contact-div" id="contact-form">
+              <div class="contact-head d-flex mb-3">
+                <img src="./img/macOS Controls.png" alt="" />
+                <p>New message</p>
+              </div>
+              <div class="contact-cont text-white">
+                <label class="my-3" for="name">Name:</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Enter your name"
+                  id="name"
+                /><br />
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  placeholder="Enter your email address"
+                /><br />
+                <!-- <label for="subject">Subject:</label>
+                <input type="text" placeholder="Enter Subject" name="subject" id="subject"><br>
+                <hr> -->
+                <div class="textarea">
+                  <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="git-btns">
+                  <a id="git-back" class="btn git-btn1">Back</a>
+                  <button class="btn git-btn1" value="Send">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <img class="my-5 line-1" src="./img/Line 3.png" width="100%" alt="" />
+
+        <div class="footer">
+          <footer class="d-flex" id="foot">
+            <div class="l-foot">
+              <img src="./img/Logo_2.svg" width="100%" alt="" />
+              <div class="text">Thanks for stopping by ッ</div>
+              <div class="copyR">© 2023 Eihab Khan. All Rights Reserved.</div>
+            </div>
+            <div class="r-foot text-white d-flex">
+              <div class="left">
+                <ul>
+                  <p>Links</p>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Work</a></li>
+                  <li><a href="#">Tech Stack</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="right">
+                <ul>
+                  <p>Elsewhere</p>
+                  <li><a href="#">Email</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                  <li><a href="#">GitHub</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Discord</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          <!-- <div class="">
+            
+            <a href="#"><img src="./img/User - Outline.svg" alt="About" /></a>
+            <a href="#"><img src="./img/Bag - Outline.svg" alt="Work" /></a>
+            <a href="#"><img src="./img/Pen - Outline.svg" alt="Notebook" /></a>
+            <a href="#"
+              ><img src="./img/Message - Outline.svg" alt="Contact"
+            /></a>
+            <a href="#"><img src="./img/More - Outline.svg" alt="More" /></a>
+          </div> -->
+          <div class='navigation  fixed-bottom mx-auto mt-5'>
+	<ul class="tabbar">
+		<li class="list active" style="--clr:#f44336"><a href="#"><span class="icon">
+					<ion-icon name="home-outline"></ion-icon>
+				</span></a></li>
+		<li class="list" style="--clr:#ffa117"><a href="#"><span class="icon">
+					<ion-icon name="person-outline"></ion-icon>
+				</span></a></li>
+		<li class="list" style="--clr:#0fc70f"><a href="#"><span class="icon">
+					<ion-icon name="chatbubble-outline"></ion-icon>
+				</span></a></li>
+		<li class="list" style="--clr:#2196f3"><a href="#"><span class="icon">
+					<ion-icon name="camera-outline"></ion-icon>
+				</span></a></li>
+		<li class="list" style="--clr:#b145e9"><a href="#"><span class="icon">
+					<ion-icon name="settings-outline"></ion-icon>
+				</span></a></li>
+		<div class="indicator"></div>
+	</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init("64lSNfjYSQqIcWSKK");
+    })();
+  </script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="app.js"></script>
+  <script src="./bootstrap/js/jquery.min.js"></script>
+  <!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
+  <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+ 
+</html>
